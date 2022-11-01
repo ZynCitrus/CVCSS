@@ -1,0 +1,118 @@
+body {
+    background: #ff9800;
+    color: #222222;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    /*width: 100vw;*/
+    font-family: Roboto;
+}
+
+/*Vänstersidan*/
+
+aside p {
+    margin: 0%;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 0;
+    /*text-align: center;*/
+
+}
+
+aside img {
+    max-width: 15vw;
+    text-align: center;
+}
+
+
+/*Mainsida*/
+article {
+    width: 100vw;
+    position: relative;
+    min-height: 100vh;
+    background-image: 
+    linear-gradient(
+        rgba(255, 255, 255, 0.546),
+        rgba(245, 152, 0, 0.75)
+      ), url("photos/hostBildBakgrund.jpg");
+    background-position: center;
+    display: grid;
+    padding: 0px;
+    margin: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+article section {
+    background-color: rgba(245, 152, 0, 0.7);
+    border-style: solid;
+    display: flex;
+    position: absolute;
+    min-width: 10vw;
+    min-height: 6vh;
+    top: 40%;
+    left: 5vw;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+section p {
+    margin: 0%;
+    font-weight: bolder;
+    font-size: 0.75rem;
+    padding: 0;
+}
+
+
+/*Knapp startsida*/
+button {
+    background-image: 
+    linear-gradient(
+        rgba(255, 255, 255, 0.546),
+        rgba(245, 152, 0, 0.75)
+      );
+    border-radius: 10px;
+    border-style: solid;
+    font-size: large;
+    margin: auto;
+    opacity: 0.7;
+    font-weight: bolder;
+}
+
+button:hover {
+    border-color: #ffffff;
+}
+
+button p {
+margin: 100px;
+}
+
+meter {
+    min-width: 100%;
+    min-height: 2rem;
+}
+
+@media only screen and (min-width: 720px) {
+    body {
+      display: flex;
+    }
+    
+    aside p{
+        text-align: center;
+    }
+
+    /*
+    article section {
+        background-color: rgba(245, 152, 0, 0.7);
+        border-style: solid;
+        display: flex;
+        position: absolute;
+        min-width: 10vw;
+        min-height: 6vh;
+        top: 40vh;
+        left: 5vw;
+        border-radius: 25px;
+        padding: 10px;
+    }*/
+    
+  }
