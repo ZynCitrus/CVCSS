@@ -59,8 +59,7 @@ aside .contactLogo {
   margin: auto;
 }
 
-.contentWrapper section,
-sectionCV {
+.contentWrapper section {
   display: flex;
   width: 100%;
   align-content: center;
@@ -74,6 +73,14 @@ section p {
   font-size: 0.75rem;
   padding: 10px;
   text-align: left;
+}
+
+.sectionCV {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .sectionCV p {
@@ -98,7 +105,7 @@ meter {
     flex-direction: column;
   }
 
-  .contentWrapper section {
+  .sectionCV {
     padding: 0;
     text-align: center;
     display: flex;
